@@ -1,10 +1,10 @@
-import { useState } from "react";
-import Map from "@arcgis/core/Map";
+import { useEffect, useRef, useState } from "react";
+import Map from "./components/Map";
 
 function App() {
   return (
-    <div className="app">
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
+    <div className="app h-[100%] flex justify-center items-center bg-slate-400">
+      <Map />
     </div>
   );
 }
