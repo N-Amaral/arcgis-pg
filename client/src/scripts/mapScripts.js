@@ -14,7 +14,7 @@ export const defaultMap = new Map({
 const options = {
   map: defaultMap,
   center: [-118.805, 34.027],
-  zoom: 13,
+  zoom: 10,
   ui: {
     components: ["zoom", "compass", "attribution"],
   },

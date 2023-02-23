@@ -14,7 +14,7 @@ function Map() {
     }
   }, []);
 
-  return <div className="h-[90%] w-[80%] shadow-xl shadow-slate-100 bg-blend-darken " id="mapContainer" ref={mapDiv} />;
+  return <div className="h-[90%] w-[80%] " id="mapContainer" ref={mapDiv} />;
 }
 
 export default Map;
